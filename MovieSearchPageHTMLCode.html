@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta  http-equiv="Content-Type" content="text/html;  charset=iso-8859-1">
+    <title>Vidflix Search</title>   
+    <style type="text/css">
+	table {
+		border:1px solid #000000;
+		border-collapse:collapse;
+		padding:5px;      
+	}
+        thead th,
+        tfoot th {
+          background-color: #000000; /* Black */
+          color: #FFFFFF; /* White */
+          text-align: center;  
+        }
+    h3 {
+      font-size: 2.5em; /* 40px/16=2.5em */
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-style: italic;
+      color: white;
+      /*text-shadow: 2px 2px 4px #000000;*/
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+
+    tr:nth-child(even) { // Even
+      background: #A4D1FF;  
+    }
+    tr:nth-child(odd) { // Odd 
+      background: #EAF4FF; 
+    }
+  
+  </style>
+  </head>
+  
+  <body>
+    <h3>Search by Movie, Genre or Streaming Site</h3>
+    <form method="post" id="searchform">
+      <input type="text" name="siteSearch" placeholder="Search by Movie, Genre or Streaming Site ";" />
+      <input type="submit" name="submit" value="Search"/>
+    </form> 
+    <br>  
+  </body>
+</html>
